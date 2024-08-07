@@ -1,0 +1,57 @@
+.create-pokemon-user {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.create-pokemon-user h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4c81af;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.create-pokemon-user form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.create-pokemon-user input,
+.create-pokemon-user select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.create-pokemon-user input:focus,
+.create-pokemon-user select:focus {
+  border-color: #4c81af;
+  box-shadow: 0 0 5px rgba(76, 129, 175, 0.5);
+  outline: none;
+}
+
+.create-pokemon-user button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4c81af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.create-pokemon-user button:hover {
+  background-color: #4560a0;
+}
